@@ -8,8 +8,8 @@
     android:background="@color/colorAccent2">
 
     <include
-        android:layout="@layout/toolbar"
-        android:id="@+id/toolbar" />
+        android:id="@+id/toolbar"
+        android:layout="@layout/actions"/>
 
     <ListView
         android:id="@+id/scheduleListView"

@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Team> teams = new ArrayList<>();
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
