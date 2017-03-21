@@ -7,15 +7,15 @@
     android:layout_height="match_parent"
     android:background="@color/colorAccent2">
 
+    <include
+        android:layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+
     <ListView
         android:id="@+id/scheduleListView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
     </ListView>
 
-    <include
-        android:layout="@layout/toolbar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/scheduleListView"/>
+
 </RelativeLayout>
