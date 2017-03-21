@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/standard_margin"
+    android:paddingLeft="@dimen/standard_margin"
+    android:paddingRight="@dimen/standard_margin"
+    android:paddingTop="@dimen/standard_margin"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.cs60333.scho2.lab2_scho2.MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notre Dame IN"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/big_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basketball 2017"
+        android:textColor="@color/colorYellow"
+        android:textSize="@dimen/small_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/basketball_margin"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leprechaun"
+        android:scaleX="0.6"
+        android:scaleY="0.5"
+        android:layout_marginBottom="128dp"
+         />
+</RelativeLayout>

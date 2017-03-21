@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyMaterialTheme" parent="SuperMaterialTheme">
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent2</item>
+    </style>
+
+    <style name="MyToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimaryMaterial</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkMaterial</item>
+        <item name="colorAccent">@color/colorAccentMaterial</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryToolbar</item>
+        <item name="android:textColorSecondary">@color/textColorSecondaryToolbar</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="basketball_margin">45dp</dimen>
+    <dimen name="big_text">36sp</dimen>
+    <dimen name="medium_text">22sp</dimen>
+    <dimen name="small_text">20sp</dimen>
+    <dimen name="vsMargin">15dp</dimen>
+    <dimen name="dateLocationText">15sp</dimen>
+    <dimen name="detailMargin">15dp</dimen>
+    <dimen name="detailName">17.5sp</dimen>
+    <dimen name="detailMascot">15sp</dimen>
+    <dimen name="detailRecord">15sp</dimen>
+</resources>

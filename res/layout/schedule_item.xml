@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/schedule_row"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/imageOfPuppers"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_margin="40px"/>
+        <!--android:background="@drawable/puppers1"-->
+
+    <TextView
+        android:id="@+id/nameOfSchool"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/colorGrey"
+        android:textSize="@dimen/medium_text"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@id/imageOfPuppers"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="35px"
+        android:textStyle="bold"/>
+        <!--android:text="Name of University"-->
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGrey"
+        android:textSize="@dimen/small_text"
+        android:paddingLeft="5dp"
+        android:layout_toRightOf="@id/nameOfSchool"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="35px"/>
+        <!--android:text="Date"-->
+</LinearLayout>

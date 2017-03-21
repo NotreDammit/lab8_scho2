@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detailDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/detailMargin"
+        android:layout_marginBottom="3dp"
+        android:textSize="@dimen/dateLocationText" />
+
+    <TextView
+        android:id="@+id/detailLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailDate"
+        android:layout_marginLeft="@dimen/detailMargin"
+        android:layout_marginBottom="30dp"
+        android:textSize="@dimen/dateLocationText"
+        android:text="Purcell Pavilion, Notre Dame, Indiana"/>
+
+    <TextView
+        android:id="@+id/detailFinalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailLocation"
+        android:textSize="@dimen/medium_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/detailVs"
+        android:text="vs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@id/detailFinalScore"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/detailOpponentSchool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/detailVs"
+        android:layout_toLeftOf="@id/detailVs"
+        android:textSize="@dimen/detailName"
+        android:layout_alignTop="@id/detailVs"
+        android:layout_marginRight="@dimen/vsMargin"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/detailOpponentMascot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/detailVs"
+        android:layout_toLeftOf="@id/detailVs"
+        android:textSize="@dimen/detailMascot"
+        android:layout_below="@id/detailOpponentSchool"
+        android:layout_marginRight="@dimen/vsMargin"/>
+    <TextView
+        android:id="@+id/detailOpponentRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/detailVs"
+        android:layout_toLeftOf="@id/detailVs"
+        android:textSize="@dimen/detailRecord"
+        android:layout_below="@id/detailOpponentMascot"
+        android:layout_marginRight="@dimen/vsMargin"/>
+
+    <TextView
+        android:id="@+id/detailSchool"
+        android:text="Notre Dame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/detailVs"
+        android:textSize="@dimen/detailName"
+        android:layout_alignTop="@id/detailVs"
+        android:layout_marginLeft="@dimen/vsMargin"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/detailMascot"
+        android:text="Fighting Irish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/detailVs"
+        android:textSize="@dimen/detailMascot"
+        android:layout_below="@id/detailSchool"
+        android:layout_marginLeft="@dimen/vsMargin"/>
+    <TextView
+        android:id="@+id/detailRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/detailVs"
+        android:textSize="@dimen/detailRecord"
+        android:layout_below="@id/detailMascot"
+        android:layout_marginLeft="@dimen/vsMargin"/>
+    <ImageView
+        android:id="@+id/detailLogo"
+        android:background="@drawable/leprechaun"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/detailMargin"
+        android:layout_below="@id/detailFinalScore"/>
+
+    <ImageView
+        android:id="@+id/detailOpponentLogo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/detailMargin"
+        android:background="@drawable/puppers1"
+        android:layout_below="@id/detailFinalScore"/>
+
+    <Button
+        android:id="@+id/detailCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/detailRecord"
+        android:layout_marginTop="30dp"
+        android:text="CAMERA"
+        android:textAlignment="center"
+        android:background="@drawable/button_border"/>
+
+    <ImageView
+        android:id="@+id/detailPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/detailCamera"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
