@@ -1,8 +1,8 @@
-Ohio State,  puppers1,  Unicorns,  (1-1),  (1-0),  0-12,  Monday, January 1, 6:00PM,  1/1
-Florida State,  puppers2,  Tadpoles,  (3-0),  (2-0),  0-24,  Tuesday, January 2, 6:00PM,  1/2
-Wake Forest,  puppers3,  Pangolins,  (2-6),  (3-0),  0-7,  Wednesday, January 3, 6:00PM,  1/3
-Boston College,  puppers4,  Dragons,  (16-4),  (4-0),  0-14,  Thursday, January 4, 6:00PM,  1/4
-North Carolina,  puppers5,  Java Beans,  (12-1),  (5-0),  7-52,   Friday, January 5, 6:00PM,  1/5
-Georgia Tech,  puppers6,  Monsters,  (15-3),  (6-0),  14-21,  Saturday, January 6, 6:00PM,  1/6
-North Virginia,  puppers7,  Puppers,  (7-7),  (7-0),  0-63,  Sunday, January 7, 6:00PM,  1/7
-Chicago State,  puppers8,  Penguins,  (0-0),  (8-0),  72-84,  Monday, January 8, 6:00PM,  1/8
+Ohio State,  puppers1,  Unicorns,  (1-1),  (1-0),  0-12,  Monday, January 1, 6:00PM,  1/1,  Purcell Pavillion, Notre Dame, Indiana
+Florida State,  puppers2,  Tadpoles,  (3-0),  (2-0),  0-24,  Tuesday, January 2, 6:00PM,  1/2,  Purcell Pavillion, Notre Dame, Indiana
+Wake Forest,  puppers3,  Pangolins,  (2-6),  (3-0),  0-7,  Wednesday, January 3, 6:00PM,  1/3,  Purcell Pavillion, Notre Dame, Indiana
+Boston College,  puppers4,  Dragons,  (16-4),  (4-0),  0-14,  Thursday, January 4, 6:00PM,  1/4,  Purcell Pavillion, Notre Dame, Indiana
+North Carolina,  puppers5,  Java Beans,  (12-1),  (5-0),  7-52,   Friday, January 5, 6:00PM,  1/5,  Purcell Pavillion, Notre Dame, Indiana
+Georgia Tech,  puppers6,  Monsters,  (15-3),  (6-0),  14-21,  Saturday, January 6, 6:00PM,  1/6,  Purcell Pavillion, Notre Dame, Indiana
+North Virginia,  puppers7,  Puppers,  (7-7),  (7-0),  0-63,  Sunday, January 7, 6:00PM,  1/7,  Purcell Pavillion, Notre Dame, Indiana
+Chicago State,  puppers8,  Penguins,  (0-0),  (8-0),  72-84,  Monday, January 8, 6:00PM,  1/8,  Purcell Pavillion, Notre Dame, Indiana

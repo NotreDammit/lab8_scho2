@@ -17,6 +17,6 @@
     <color name="colorYellow">#fffb00</color>
     <color name="colorGrey">#767676</color>
 
-    <color name="textColorPrimaryToolbar">#464646</color>
+    <color name="textColorPrimaryToolbar">#e0e0e0</color>
     <color name="textColorSecondaryToolbar">#845c5c</color>
 </resources>
